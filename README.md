@@ -1,2 +1,2 @@
 # etch-a-sketch
-Create an etch-a-sketch program
+Create an etch-a-sketch program. 
