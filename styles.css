@@ -1,0 +1,36 @@
+body {
+    background: lightblue;
+}
+
+#title {
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+#center {
+    height: 20px;
+}
+
+#resetButton {
+    text-align: center;
+    /* position: relative;
+    left: 50%; */
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ; 
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+}
+.square {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.square:hover{
+    background-color: black;
+}
